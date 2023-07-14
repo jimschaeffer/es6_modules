@@ -1,7 +1,5 @@
-const { ids } = require("webpack")
-
 export default class Car {
-    constructor() {
+    constructor(id, make, model, year) {
         this.id = id;
         this.make = make;
         this.model = model;
